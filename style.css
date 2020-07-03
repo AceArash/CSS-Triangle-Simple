@@ -1,0 +1,16 @@
+body {
+  background-image: radial-gradient(circle 360px at 50% 50%, rgba(63,94,251,1) 0%, rgba(224,11,54,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.triangle{
+  width : 0;
+  height : 0;
+  border: 50px solid transparent;
+  border-bottom-color: purple;
+  border-top-color: purple;
+}
